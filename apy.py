@@ -6,7 +6,7 @@ app = Flask(__name__)
 def info():
     return jsonify({
         "nombre": "Carlos José Blanco Guzmán",
-        "cancion_favorita": "Gary vs David (un show mas xd)"
+        "album_favorito": "The Revenge Of Alice Cooper"
     })
 
 if __name__ == '__main__':
